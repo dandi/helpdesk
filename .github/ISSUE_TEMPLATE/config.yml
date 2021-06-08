@@ -1,0 +1,8 @@
+contact_links:
+  - name: "\U0001F914 All other DANDI questions, including if you're not sure what to do."
+    url: https://github.com/dandi/helpdesk/discussions
+    about: Search for similar questions or ask for help there.
+  - name: "\U0001F310 For interacting with the global neuroscience community"
+    url: https://neurostars.org
+    about: A global platform for the neuroscience community.
+
