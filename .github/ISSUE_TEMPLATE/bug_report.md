@@ -32,8 +32,10 @@ e.g. are you using a distribution such as zero-to-jupyterhub or the-littlest-jup
 
  - OS:
  <!-- [e.g. ubuntu 20.04, macOS 11.0] -->
+ - Browser:
+ <!-- [e.g. chrome, firefox, safari, brave] -->
  - Version(s):
- <!-- e.g. jupyterhub --version, python --version --->
+ <!-- e.g. dandi --version, python --version --->
 
 - <details><summary>Full environment</summary>
 <!-- For reproduction, it's useful to have the full environment. For example, the output of `pip freeze` or `conda list` --->
@@ -43,35 +45,10 @@ e.g. are you using a distribution such as zero-to-jupyterhub or the-littlest-jup
 ```
 </details>
 
-- <details><summary>Configuration</summary>
-<!--
-For JupyterHub, especially include information such as what Spawner and Authenticator are being used.
-Be careful not to share any sensitive information.
-You can paste jupyterhub_config.py below.
-To exclude lots of comments and empty lines from auto-generated jupyterhub_config.py, you can do:
-    grep -v '\(^#\|^[[:space:]]*$\)' jupyterhub_config.py
--->
-
-```python
-# jupyterhub_config.py
-```
-</details>
-
 - <details><summary>Logs</summary>
 <!--
-Errors are often logged by jupytehub. How you get logs depends on your deployment.
-With kubernetes it might be:
-
-    kubectl get pod # hub pod name starts with hub...
-    kubectl logs hub-...
-    # or for a single-user server
-    kubectl logs jupyter-username
-
-Or the-littlest-jupyterhub:
-
-    journalctl -u jupyterhub
-    # or for a single-user server
-    journalctl -u jupyter-username
+Errors are often logged by dandi. How you get logs depends on your deployment. 
+On your terminal/shell dandi will tell you where it saved the logs.
 -->
 
 ```
