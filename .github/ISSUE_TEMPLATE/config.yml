@@ -1,4 +1,10 @@
 contact_links:
+  - name: "\U0001F914 Use the handbook to get started with DANDI"
+    url: https://www.dandiarchive.org/handbook/
+    about: Information on to how to use DANDI.
+  - name: "\U0001F914 DANDI user tutorial on Youtube"
+    url: https://www.youtube.com/watch?v=fFnx-wzlLOs
+    about: Overview and hands on tutorial on using DANDI.
   - name: "\U0001F914 All other DANDI questions, including if you're not sure what to do."
     url: https://github.com/dandi/helpdesk/discussions
     about: Search for similar questions or ask for help there.
