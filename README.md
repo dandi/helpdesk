@@ -10,7 +10,7 @@ For questions, general announcements, new ideas, Q&A, and "Show and tell," use t
 ## Resources
 
 * To learn how to interact with the DANDI archive,
-see [the handbook](https://www.dandiarchive.org/handbook/).
+see the [DANDI Docs](https://docs.dandiarchive.org).
 
 * To file a feature request or bug report, go to https://github.com/dandi/helpdesk/issues/new/choose.
 
